@@ -22,9 +22,9 @@
         background-color: var(--Slate-300);
       }
       .box {
-        width: 300px;
+        width: 20rem;
         background-color: var(--White);
-        padding: 20px;
+        padding: 1.5rem;
         border: 1px solid var(--White);
         border-radius: 3%;
       }
@@ -34,7 +34,7 @@
       }
       .qr_box img {
         width: 100%;
-        max-height: 300px;
+        max-height: 20rem;
         border: 1px solid var(--White);
         border-radius: 10px;
       }
