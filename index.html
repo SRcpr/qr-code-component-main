@@ -15,7 +15,40 @@
     <title>Frontend Mentor | QR code component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: hsl(212, 45%, 89%);
+      }
+      #box {
+        width: 375px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px;
+        border: 1px solid hsl(0, 0%, 100%);
+        border-radius: 3%;
+      }
+
+      .qr_box {
+        width: 100%;
+      }
+      .qr_box img {
+        width: 100%;
+        max-height: 300px;
+        border: 1px solid hsl(0, 0%, 100%);
+        border-radius: 10px;
+      }
+      .qr_box p {
+        color: hsl(212, 45%, 89%);
+      }
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -26,14 +59,22 @@
     </style>
   </head>
   <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
+    <div id="box">
+      <div class="qr_box">
+        <img src="./images/image-qr-code.png" width="567" height="576" alt="" />
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">SUNIL</a>.
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">SUNIL</a>.
+        </div>
+      </div>
     </div>
   </body>
 </html>
